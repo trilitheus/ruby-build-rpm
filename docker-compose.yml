@@ -5,3 +5,4 @@ services:
     build: .
     volumes:
       - .:/tmp/destdir
+    entrypoint: ['sh', '-c', '/usr/local/bin/build_ruby.sh']
