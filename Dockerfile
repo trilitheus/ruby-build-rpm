@@ -1,4 +1,4 @@
-FROM centos:7.2.1511
+FROM centos:7.3.1611
 RUN yum install -y \
   gcc \
   make \
@@ -10,4 +10,3 @@ RUN yum install -y \
   wget \
   zlib-devel 
 RUN gem install fpm
-ADD build_ruby.sh /usr/local/bin/
