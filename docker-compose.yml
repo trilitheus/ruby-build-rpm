@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - .:/tmp/destdir
-    entrypoint: ['sh', '-c', '/tmp/destdir/build_ruby_2.3.3.sh']
+    entrypoint: ['sh', '-c', '/tmp/destdir/build_ruby.sh']

@@ -1,4 +1,4 @@
-RUBY_VERSION='2.3.3'
+RUBY_VERSION='2.3.5'
 MAJOR_MINOR=$(echo $RUBY_VERSION | cut -f1,2 -d'.')
 
 cd /tmp
